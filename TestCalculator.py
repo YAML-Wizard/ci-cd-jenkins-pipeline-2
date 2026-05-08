@@ -7,7 +7,7 @@ class TestCalculator(unittest.TestCase):
 
     ############################Addition Tests##########################
     def test_add_positive(self):
-        self.assertEqual(self.calc.add(3, 3), 6)
+        self.assertEqual(self.calc.add(2, 3), 5)
 
     def test_add_negative(self):
         self.assertEqual(self.calc.add(-10, -5), -15)
